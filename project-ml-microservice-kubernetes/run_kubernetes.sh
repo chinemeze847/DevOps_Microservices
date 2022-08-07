@@ -4,7 +4,7 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath=chinemeze/api
+dockerpath=chinemeze/udacityapi
 
 # Step 2
 # Run the Docker Hub container with kubernetes
