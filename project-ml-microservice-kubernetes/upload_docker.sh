@@ -6,10 +6,13 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-
+dockerpath=chinemeze/udacityapi
 # Step 2:  
 # Authenticate & tag
+echo "$DP" | docker login -u "chinemeze" --password "Je5u515L%rd"
+docker tag api $dockerpath
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath
