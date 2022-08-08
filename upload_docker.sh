@@ -9,7 +9,7 @@
 dockerpath=chinemeze/udacityapi
 # Step 2:  
 # Authenticate & tag
-echo "$DP" | docker login -u "chinemeze" --password "Je5u515L%rd"
+echo "$DP" | docker login -u "chinemeze" --password-stdin
 docker tag api $dockerpath
 echo "Docker ID and Image: $dockerpath"
 
